@@ -1,0 +1,15 @@
+environment_subscription_id     = "[subscriptionid]"
+environment_tenant_id           = "[tenantid]"
+environment_short               = "dev"
+//application_short             = "tb"
+//location                      = "switzerlandnorth"
+//location_short                = "chn"
+
+tags_default = {
+  deployment_type  = "terraform"
+  env              = "dev"
+  owner            = "bqstony"
+  application_name = "sample wireguard vpn server"
+  sourceUrl        = "https://github.com/bqstony/terraform-wireguard.git"
+  sourceRevision   = "manuel"
+}
