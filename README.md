@@ -97,3 +97,4 @@ AllowedIPs = 192.168.2.0/24
 # {your_server_fqdn}:51820 -> Public ip
 Endpoint = 20.203.164.205:51820
 ```
+> Falls windows 11 verwendet wird, kann es sein das die Verbindung durch die Firewall blockiert wird. Es müssen allenfalls die Firewall Regeln angepasst werden. Ev möchte man die verbindung dem privaten Netzwerk zuweisen. dies ist möglich über: `Set-NetConnectionProfile -InterfaceAlias 'peer-redacted-wg0-4' -NetworkCategory 'Private'`
